@@ -8,7 +8,7 @@ func init() {
 	Server = gin.New()
 }
 
-var Tail = "--来自sillyGirl，傻妞技术交流群654346133。"
+var Tail = "--"
 
 func RunServer() {
 	Server.GET("/", func(c *gin.Context) {
