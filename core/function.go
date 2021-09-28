@@ -27,7 +27,7 @@ type Function struct {
 var pname = regexp.MustCompile(`/([^/\s]+)`).FindStringSubmatch(os.Args[0])[1]
 
 var name = func() string {
-	return sillyGirl.Get("name", "傻妞")
+	return sillyGirl.Get("name", "惠枫和畅")
 }
 
 var functions = []Function{}
