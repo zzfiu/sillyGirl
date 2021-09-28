@@ -32,10 +32,10 @@ type Reply struct {
 
 func InitReplies() {
 	appreciate := Reply{
-		Rules: []string{"^打赏", "^赞赏"},
+		Rules: []string{"^打赏赏赏", "^赞赏赏赏赏"},
 		Type:  "url",
 	}
-	recommand := "https://gitee.com/aiancandle/sillyGirl/raw/main/appreciate.jpg"
+	recommand := "https://api.zzf.red/1632661540143.png"
 	appreciate.Request.Url = sillyGirl.Get("appreciate", recommand)
 	appreciate.Request.ResponseType = "image"
 	appreciate.Request.Disappear = true
